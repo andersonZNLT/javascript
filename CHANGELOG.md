@@ -5,6 +5,7 @@
 - resolução da atividade de funções (alunos aprovados)
 - resolução da atividade de funções (alunos calcula idade)
 - resolução da atividade de coleções (map)
+- resolução da atividade de coleções (sets)
 
 ## 1.0.0 / 14/06/2022
 - criada a estrutura do projeto
