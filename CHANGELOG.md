@@ -2,6 +2,7 @@
 - resolução do desafio de comparação usando operadores e sintaxe
 - resolução da atividade verifica palindromo (aula sobre variáveis e tipos)
 - resolução da atividade substituir numeros pares
+- resolução da atividade de funções (alunos aprovados)
 
 ## 1.0.0 / 14/06/2022
 - criada a estrutura do projeto
