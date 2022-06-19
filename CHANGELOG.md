@@ -1,5 +1,7 @@
 ## 1.2.0 / 20/06/2022
 - teste de funcionamento da função MAP
+- teste de funcionamento da função filter
+- teste de funcionamento da função reduce
 
 ## 1.1.0 / 15/06/2022
 - resolução do desafio de comparação usando operadores e sintaxe
