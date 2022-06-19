@@ -1,3 +1,6 @@
+## 1.2.0 / 20/06/2022
+- teste de funcionamento da função MAP
+
 ## 1.1.0 / 15/06/2022
 - resolução do desafio de comparação usando operadores e sintaxe
 - resolução da atividade verifica palindromo (aula sobre variáveis e tipos)
@@ -6,6 +9,7 @@
 - resolução da atividade de funções (alunos calcula idade)
 - resolução da atividade de coleções (map)
 - resolução da atividade de coleções (sets)
+- release
 
 ## 1.0.0 / 14/06/2022
 - criada a estrutura do projeto
