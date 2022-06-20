@@ -1,11 +1,10 @@
 /////CONTA BANCÁRIA/////
-
 class ContaBancaria {
-    constructor(agencia, numero, tipo, saldo) {
+    constructor(agencia, numero, tipo) {
         this.agencia = agencia;
         this.numero = numero;
         this.tipo = tipo;
-        this._saldo = saldo; //underline mostra que usa um get/set
+        this._saldo = 0; //underline mostra que o parametro usa um get/set
     }
 
     get saldo() {
@@ -36,10 +35,9 @@ class ContaBancaria {
 }
 
 /////CONTA CORRENTE/////
-
-class ContaCorrente {
-    constructor(agencia, numero, saldo, cartaoCredito) {
-        super(agencia, numero, saldo) //acessa a classe pai passando os valores destas propriedades
+class ContaCorrente extends ContaBancaria {
+    constructor(agencia, numero, cartaoCredito) {
+        super(agencia, numero) //acessa a classe pai passando os valores destas propriedades
         this.tipo = 'corrente';
         this._cartaoCredito = cartaoCredito;
     }
@@ -53,16 +51,18 @@ class ContaCorrente {
     }
 }
 
-class ContaPoupanca {
-    constructor(agencia, numero, saldo) {
-        super(agencia, numero, saldo) //acessa a classe pai passando os valores destas propriedades
+/////CONTA POUPANÇA/////
+class ContaPoupanca extends ContaBancaria {
+    constructor(agencia, numero) {
+        super(agencia, numero) //acessa a classe pai passando os valores destas propriedades
         this.tipo = 'poupança';
     }
 }
 
-class ContaUniversitaria {
-    constructor(agencia, numero, saldo) {
-        super(agencia, numero, saldo) //acessa a classe pai passando os valores destas propriedades
+/////CONTA UNIVERSITÁRIA/////
+class ContaUniversitaria extends ContaBancaria  {
+    constructor(agencia, numero) {
+        super(agencia, numero) //acessa a classe pai passando os valores destas propriedades
         this.tipo = 'universitária';
     }
 
