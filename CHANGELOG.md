@@ -3,6 +3,7 @@
 - teste de funcionamento da função filter
 - teste de funcionamento da função reduce
 - exercício erros
+- montagem do ambiente para o exercício consumindo APIs
 
 ## 1.1.0 / 15/06/2022
 - resolução do desafio de comparação usando operadores e sintaxe
