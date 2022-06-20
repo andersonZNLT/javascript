@@ -1,3 +1,6 @@
+## 1.3.0 / 21/06/2022
+- atividade orientação a objetos
+
 ## 1.2.0 / 20/06/2022
 - teste de funcionamento da função MAP
 - teste de funcionamento da função filter
@@ -5,6 +8,7 @@
 - exercício erros
 - montagem do ambiente para o exercício consumindo APIs
 - script.js para a captura da imagem por metodo fetch em uma url.
+- release
 
 ## 1.1.0 / 15/06/2022
 - resolução do desafio de comparação usando operadores e sintaxe
