@@ -1,5 +1,6 @@
 ## 1.3.0 / 21/06/2022
 - atividade orientação a objetos
+- conclusão atividade orientação a objetos
 
 ## 1.2.0 / 20/06/2022
 - teste de funcionamento da função MAP
